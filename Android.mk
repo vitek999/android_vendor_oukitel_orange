@@ -22,7 +22,7 @@ ifeq ($(MTKPATH),)
 # Proprietary Modules go here
 include $(CLEAR_VARS)
 LOCAL_MODULE := MTKLogger
-LOCAL_MODULE_OWNER := archos
+LOCAL_MODULE_OWNER := oukitel
 LOCAL_SRC_FILES := proprietary/app/MTKLogger/MTKLogger.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
@@ -32,7 +32,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := YGPS
-LOCAL_MODULE_OWNER := archos
+LOCAL_MODULE_OWNER := oukitel
 LOCAL_SRC_FILES := proprietary/app/YGPS/YGPS.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
@@ -42,7 +42,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libaudiopolicymanager
-LOCAL_MODULE_OWNER := archos
+LOCAL_MODULE_OWNER := oukitel
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -52,7 +52,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libaudiopolicymanager
-LOCAL_MODULE_OWNER := archos
+LOCAL_MODULE_OWNER := oukitel
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
