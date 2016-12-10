@@ -94,3 +94,19 @@ key 163   MEDIA_NEXT
 key 165   MEDIA_PREVIOUS
 key 168   MEDIA_REWIND
 key 159   MEDIA_FAST_FORWARD
+key 266   HALL
+key 267   HALL_RELEASE
+
+key 288   TP_DBL
+key 289   TP_C
+key 290   TP_E
+key 291   TP_M
+key 292   TP_O
+key 293   TP_UP
+key 294   TP_DOWN
+key 295   TP_LEFT
+key 296   TP_RIGHT
+key 297   TP_W
+key 298   TP_Z
+key 299   TP_V
+key 300   TP_S

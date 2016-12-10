@@ -16,16 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/oukitel/orange/proprietary/lib/libsbccodec.so:system/lib/libsbccodec.so \
-	vendor/oukitel/orange/proprietary/lib/liba3m.so:system/lib/liba3m.so \
-	vendor/oukitel/orange/proprietary/lib/libacdk.so:system/lib/libacdk.so \
-	vendor/oukitel/orange/proprietary/lib/libcam.campipe.so:system/lib/libcam.campipe.so \
-	vendor/oukitel/orange/proprietary/lib/libcam.iopipe_FrmB.so:system/lib/libcam.iopipe_FrmB.so \
-	vendor/oukitel/orange/proprietary/lib/libcamdrv_FrmB.so:system/lib/libcamdrv_FrmB.so \
-	vendor/oukitel/orange/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-	vendor/oukitel/orange/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
-	vendor/oukitel/orange/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-	vendor/oukitel/orange/proprietary/lib/libimageio_FrmB.so:system/lib/libimageio_FrmB.so \
-	vendor/oukitel/orange/proprietary/lib/libimageio_plat_drv_FrmB.so:system/lib/libimageio_plat_drv_FrmB.so \
     vendor/oukitel/orange/proprietary/lib/libbtcust.so:system/lib/libbtcust.so \
     vendor/oukitel/orange/proprietary/lib/libbtsession.so:system/lib/libbtsession.so \
     vendor/oukitel/orange/proprietary/lib/libbtcusttable.so:system/lib/libbtcusttable.so \
@@ -248,9 +238,7 @@ PRODUCT_COPY_FILES += \
     vendor/oukitel/orange/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
     vendor/oukitel/orange/proprietary/etc/perfservscntbl.txt:system/etc/perfservscntbl.txt \
     vendor/oukitel/orange/proprietary/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
-    vendor/oukitel/orange/proprietary/usr/keylayout/AW9201_ts.kl:system/usr/keylayout/AW9201_ts.kl \
     vendor/oukitel/orange/proprietary/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
-    vendor/oukitel/orange/proprietary/usr/keylayout/mtk-tpd.kl:system/usr/keylayout/mtk-tpd.kl \
     vendor/oukitel/orange/proprietary/lib/libhwm.so:system/lib/libhwm.so \
     vendor/oukitel/orange/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/oukitel/orange/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
